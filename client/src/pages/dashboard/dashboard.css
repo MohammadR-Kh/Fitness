@@ -1,0 +1,90 @@
+.dashboard{
+  padding: 20px;
+  color: #ffffff;
+}
+.dash-head{
+  text-align: center;
+}
+.dash-head h2{
+  color: #39ff14;
+  font-size: 50px;
+}
+.health-sum{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 100px;
+}
+.health-val{
+  background-color: #1c1c1c;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 250px;
+  border-radius: 20px;
+  border: 1px solid #39ff14;
+  box-shadow: 0 0 5px #39ff14;
+  font-size: 20px;
+}
+.health-val span{
+  color: #39ff14;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.health-val input{
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #39ff14;
+  height: 25px;
+  width: 100px;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding-left: 5px;
+}
+.health-val input:focus{
+  border-color: #2ecc71;
+  outline: none;
+  box-shadow: 0 0 10px 2px #2ecc71;
+}
+.button-container{
+  text-align: center;
+  margin-top: 30px;
+}
+.button-container button{
+  background-color: #39ff14;
+  color: #000000;
+  border: none;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-container button:hover{
+  background-color: #2ecc71;
+  transition: 0.3s;
+}
+.bmi-val {
+  font-size: 20px;
+}
+
+.bmi-val.green {
+  color: #39ff14; 
+}
+
+.bmi-val.yellow {
+  color: #ffff00;
+}
+
+.bmi-val.orange {
+  color: #ff9900;
+}
+
+.bmi-val.red {
+  color: #ff0000;
+}
+.total-diet{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 100px;
+}

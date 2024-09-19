@@ -1,0 +1,16 @@
+@import url(./pages/sign-up/sign-up.css);
+@import url(./pages/sign-in/sign-in.css);
+@import url(./pages/navbar/navbar.css);
+@import url(./pages/main/main.css);
+@import url(./pages/dashboard/dashboard.css);
+@import url(./pages/workouts/workouts.css);
+@import url(./pages/diet/diet.css);
+@import url(./pages/goals/goals.css);
+
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
